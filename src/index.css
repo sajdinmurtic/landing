@@ -1,0 +1,129 @@
+html,body {
+  overflow-x: hidden;
+
+}
+.navbar {
+  background-color: rgb(253, 188, 108);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  
+  
+  }
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+  
+  }
+.nav-logo {
+  color: #fff;
+  align-items: center;
+  margin-left: 20px;
+  text-decoration: none;
+  flex-grow: 1;
+  
+}
+.nav-menu{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+  
+}
+.nav-links {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  
+}
+.item{
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  
+}
+.section-title {
+  margin-bottom: 70px;
+}
+.section-title h2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.container {
+  text-align: center;
+}
+.main-logo{
+  color: red;
+  font-size: 70px;
+  padding-top: 50px;
+}
+.main{
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+.desc {
+  font-size: 50px;
+}
+.test-desc {
+  padding-bottom: 150px;
+}
+.test-desc img {
+  width: 150px;
+}
+.test-title {
+  padding:50px;
+}
+.service-desc img {
+  width: 150px;
+}
+.services {
+  padding: 40px 0;
+  background: burlywood;
+  color: #fff;
+}
+.service-desc {
+  margin: 10px 10px 20px;
+}
+.test-desc {
+  text-align: center;
+}
+.services h2 {
+  color: #fff;
+}
+.feature-title {
+  padding-top: 40px;
+}
+.feature-title img {
+   width: 500px;
+}
+.row {
+  align-items: center;
+}
+.footer {
+  padding-bottom:40px;
+  background-color: bisque;
+}
+.footer .container{
+  padding:20px;
+}
+
+@media  screen and (max-width: 768px) {
+  .navbar,
+  .nav-container,
+  .item {
+     display: block;
+     margin-right: -24px;  
+  }
+  
+}
+  
+
+
